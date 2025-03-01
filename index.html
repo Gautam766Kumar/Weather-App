@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Weather_App</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="maindiv">
+          <div class="wap">WEATHER APP</div>
+          <div class="weatherdiv">
+               <div onclick="yur()" id="yourWeather">Your Weather</div>
+               <!-- <button id="searchWeather">Search Weather</button> -->
+               <div onclick="sear()" id="searchWeather">Search Weather</div>
+          </div>
+          <div id="your">
+               <!-- <div class="weatherdiv">
+                    <div id="yourWeather">Your Weather</div>
+                    <div onclick="sear()" id="searchWeather">Search Weather</div>
+               </div> -->
+               <div class="temp">
+                    <div id="addres">
+                         <div id="cityname">Location</div>
+                         <div id="flag"><img src="indiaflag.webp" width="25px" height="20px" alt=""></div>
+                    </div>
+                    <div id="haze">Haze</div>
+                    <div class="wind" style="color: white;"><i class="fa-solid fa-wind"></i></div>
+                    <!-- <img src="" alt=""> -->
+                    <div id="citytemp">°C</div>
+               </div>
+               <div id="detail">
+                    <div class="winds">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: blue;"><i class="fa-solid fa-wind"></i></div>
+                         <div>WINDSPEED</div>
+                         <div id="wsp">m/s</div>
+                    </div>
+                    <div class="hum">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: white;"><i class="fa-solid fa-droplet"></i></div>
+                         <div>HUMIDITY</div>
+                         <div id="hum">%</div>
+                    </div>
+                    <div class="cl">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: aqua;"><i class="fa-solid fa-cloud-sun"></i></div>
+                         <div >CLOUDS</div>
+                         <div id="cl">%</div>
+                    </div>
+               </div>
+          </div>
+          
+          <div id="funsearch">
+               <input type="text" name="" id="inputsearch" value="">
+               <div onclick="search()" id="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></div>
+          </div>
+
+
+          <!-- search weather by location -->
+          <div id="other">
+               <!-- <div class="weatherdiv">
+                    <div id="yourWeather">Your Weather</div>
+                    <div onclick="sear()" id="searchWeather">Search Weather</div>
+               </div> -->
+               <div class="temp">
+                    <div id="addres">
+                         <div id="ciname" style="color:white;">Location</div>
+                         <img src="indiaflag.webp" width="25px" height="20px" id="cflag">
+                    </div>
+                    <div id="haze">Haze</div>
+                    <div class="wind" style="color: white;"><i class="fa-solid fa-wind"></i></div>
+                    <!-- <img src="" alt=""> -->
+                    <div id="citemp">°C</div>
+               </div>
+               <div id="detail">
+                    <div class="winds">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: blue;"><i class="fa-solid fa-wind"></i></div>
+                         <div>WINDSPEED</div>
+                         <div id="other_wind">speed</div>
+                    </div>
+                    <div class="hum">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: white;"><i class="fa-solid fa-droplet"></i></div>
+                         <div>HUMIDITY</div>
+                         <div id="other_hum">%</div>
+                    </div>
+                    <div class="cl">
+                         <!-- <img src="" alt=""> -->
+                          <div style="color: aqua;"><i class="fa-solid fa-cloud-sun"></i></div>
+                         <div>CLOUDS</div>
+                         <div id="other_cl">%</div>
+                    </div>
+               </div>
+          </div>
+          <!-- /search weather by location -->
+     </div>
+     <!-- <img src="" id="cflag"> -->
+     <script src="index.js"></script>
+</body>
+</html>

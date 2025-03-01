@@ -1,0 +1,158 @@
+.maindiv{
+     height: 100vh;
+     width: 100vw;
+     background-color: blue;
+     background-image: linear-gradient(to bottom,blue,rgb(129, 129, 231));
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+}
+#your{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* height: 100%;
+     width: 100%; */
+     visibility:visible;
+}
+.wap{
+     color: white;
+     font-size: 35px;
+     font-family: monospace;
+     font-weight: bold;
+}
+.weatherdiv{
+     display: flex;
+     color: white;
+     font-size: 18px;
+     width: 600px;
+     margin-left: -30px;
+     margin-top: 10px;
+
+}
+#yourWeather{
+     height: 32px;
+     width: 130px;
+     margin-left:65px;
+     text-align: center;
+     align-content: center;
+     border-radius: 5px;
+}
+#searchWeather{
+     height: 32px;
+     width: 130px;
+     margin-left: 230px;
+     text-align: center;
+     align-content: center;
+     border-radius: 5px;
+}
+#addres{
+     display: flex;
+     margin-top: 40px;
+}
+#cityname,#ciname{
+     color: white;
+     font-size: 25px;
+     font-family: monospace;
+     font-weight: bold;
+}
+#cflag{
+     width: 25px;
+     height: 20px;
+     background-color: white;
+     margin-left: 10px;
+     margin-top: 8px;
+}
+#flag{
+     width: 25px;
+     height: 20px;
+     background-color: white;
+     margin-left: 10px;
+     margin-top: 8px;
+}
+.temp{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* justify-content: space-between; */
+}
+#haze{
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 6px;
+}
+.wind{
+     margin-top: 10px;
+}
+#citytemp,#citemp{
+     color: white;
+     font-size: 30px;
+     font-weight: bold;
+     margin-top: 15px;
+}
+
+#detail{
+     width: 350px;
+     display: flex;
+     flex-direction: row;
+     margin-top: 20px;
+     justify-content: space-around;
+}
+.winds ,.cl, .hum{
+     width: 100px;
+     height: 80px;
+     border-radius: 10px;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* border:2px solid white; */
+     background-color: #ffffff2e;
+     
+}
+/* .winds{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+} */
+ #yourWeather:hover,#searchWeather:hover{
+     background-color: #ffffff2e;
+     cursor: pointer;
+ }
+ #funsearch{
+     position: absolute;
+     margin-top: -110px;
+     display: flex;
+     margin-left: 50px;
+     visibility: hidden;
+ }
+ #inputsearch{
+     width: 345px;
+     height: 20px;
+     border-radius: 5px;
+ }
+ #searchbutton{
+     display: flex;
+     margin-left: 12px;
+     width: 25px;
+     height: 25px;
+     background-color: #ffffff2e;
+     color: white;
+     border-radius: 100%;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ #other{
+     position: absolute;
+     margin-top: 160px;
+     visibility: hidden;
+ }
